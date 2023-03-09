@@ -13,7 +13,7 @@ html {
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 1.125rem;
-  color: {{ site.text-col | default: "4D455D" }};
+  color: {{ site.text-col | default: "#4D455D" }};
   position: relative;
   background-color: {{ site.page-col | default: "#FFFFFF" }};
   {% if site.page-img %}
@@ -51,7 +51,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: {{ site.hover-col | default: "#0085A1" }};
+  color: {{ site.hover-col | default: "#FCFFE7" }};
 }
 blockquote {
   color: #808080;
