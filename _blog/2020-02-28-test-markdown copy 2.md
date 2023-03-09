@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Blog
-parent: Blog
+path: "/_blog"
 subtitle: Each post also has a subtitle
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
